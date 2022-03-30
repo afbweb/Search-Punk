@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
 import { Container, Center, Input, Wrap, WrapItem } from "@chakra-ui/react";
-import CartasNFT from "./Cartas/Cartas";
+import CartasNFT from "../components/Cartas/Cartas";
 
 
 export default function Home() {

@@ -39,6 +39,7 @@ const CartasNFT = () => {
   };
 
   return (
+    
     <>
       <Center paddingTop="20px">
         <Input

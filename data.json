@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/3CJxVFCDd3QIBN3G0VF3nD-teM_E1TM26oNMwLl20TeY8crqqeFEolKxExspLPuPH0b2enksGwLU75Cliw5x0KJBJAwWD8AggZC7=w302",
     "titulo": "CryptoPunk 6361",
     "precio": "99.00"    
   },
   {
     "id": 2,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/AoedEmJnp3D00UqQaw45kLEBtynYYSFxRn4Itn1aq9p6NEiLWzEwn8iDQxfOOGTfBWJYfPDQrhR4biMUTgbSyORcGZCfxKxKzk8Kiw=w302",
     "titulo": "CryptoPunk 6261",
     "precio": "72.00"
   },
   {
     "id": 3,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/PwFhOYKPLjQzrtwbq7uQxMZgB-NSCwsOZ7s23381W5DUks1_THgYJCvh-C4rZgaliQYB-025B0LuAXAGVZ1v4XakxlfH5nZaA6duZg=w302",
     "titulo": "CryptoPunk 3331",
    "precio": "65.00"
   },
   {
     "id": 4,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/H-xBRMLWjbfpzHV0_0B_UM9n54tSQEZ9RLsmfcsBP4QOLKbE8SOZmMVbjbahNw8LURhOAN-H8nNuwaP13P5NpRq-8qxI-bLcPujhWA=w302",
     "titulo": "CryptoPunk 2120",
     "precio": "25.20"
   },
   {
     "id": 5,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/q4vCJo9jZ5v1QHuKRUxi2ih4rjt35SnmVhRmsgwEXmR7ngOqDki2ReKyL3zTlHmFA3X9l2Wr0tw84sS2vrguzlTW2EiLNL8pxCpgjyk=w302",
     "titulo": "CryptoPunk 9024",
     "precio": "38.00"
   },
   {
     "id": 6,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/ckzuFLuOIiQmUaK4ua4fib4nEB-uMmhbvtS1KamqCTJcKGK_rdxtNmYifSQ_VAfvWnV5o9tLPcIGTas3fusDSjla3JxgSziato8lK_w=w302",
     "titulo": "CryptoPunk 1321",
     "precio": "15.00"
   },
   {
     "id": 7,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/RM_Cw_FORmT2EAMoUlzGDtdC9M8i8r-9X4ZKYRq2v4IGqwzGqv9o9a9DyDHl-7gQyVi1t9FwmRU_QNYDvdKy3EU1Fgq67lqkULoEs7Y=w302",
     "titulo": "CryptoPunk 7511",
     "precio": "46.00"
   },
   {
     "id": 8,
-    "imageUrl":
+    "image":
       "https://lh3.googleusercontent.com/VWYd2TM6e2RiG_N_HMlw98s0QNv-Crclfjd1Ux2fPo8szbcF7lj3JgNgzcgGuQNEJXRuniAQeUTwfghwdEB0oKWMWqnVMLSBXxPs=w302",
     "titulo": "CryptoPunk 6028",
     "precio": "28.00"

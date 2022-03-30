@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Badge, Img, Icon } from "@chakra-ui/react";
 
-const Carta = ({ carta }) => {
+const Carta = ( {carta} ) => {
   return (
     <Box
       marginTop="20px"
@@ -12,7 +12,7 @@ const Carta = ({ carta }) => {
       flex="grow"
       border="1px solid rgb(229, 232, 235)"
     >
-      <Img src={carta.imageUrl} />
+      <Img src={carta.image} />
 
       <Box p="0"></Box>
       <Box
