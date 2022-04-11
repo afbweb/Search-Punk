@@ -1,7 +1,12 @@
 import React from "react";
 import { Box, Badge, Img, Icon } from "@chakra-ui/react";
+import { Data } from "../../utilities/types"
 
-const Carta = ( {carta} ) => {
+interface Props {
+  carta: Data;
+}
+
+const Carta: React.VFC<Props> = ({ carta }) => {
   return (
     <Box
       marginTop="20px"

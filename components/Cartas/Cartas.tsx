@@ -13,14 +13,16 @@ import {
   LinkBox,
   Select,
 } from "@chakra-ui/react";
-import JSONDATA from "/data.json";
+import JSONDATA from "../../utilities/data.json";
 
-// const cartas = JSONDATA;
+import {Data} from "../../utilities/types"
+
+//const cartas = JSONDATA;
 
 const CartasNFT = () => {
-  const [data, setData] = useState(JSONDATA);
-  const [buscar, setBuscar] = useState("");
-  const [orden, setOrden] = useState("ASC");
+  const [data, setData] = useState<Data[]>(JSONDATA);
+  const [buscar, setBuscar] = useState<string>("");
+  const [orden, setOrden] = useState<string>("ASC");
   const sorting = (col) => {
     if (orden === "ASC") {
       const sorted = [...data].sort((a, b) =>
@@ -39,11 +41,11 @@ const CartasNFT = () => {
   };
 
   return (
-    
+
     <>
       <Center paddingTop="20px">
         <Input
-        
+
           variant="outline"
           placeholder="Buscar por numero de Cryptopunk"
           onChange={(e) => setBuscar(e.target.value)}
@@ -51,7 +53,7 @@ const CartasNFT = () => {
       </Center>
 
       <Box display="grid" paddingTop="20px">
-        <Button variant='outline'  size="lg" onClick={() => sorting("precio")}>
+        <Button variant='outline' size="lg" onClick={() => sorting("precio")}>
           Ordenar por precio
         </Button>
         <Button variant='outline' size="lg" onClick={() => sorting("titulo")}>
@@ -68,11 +70,11 @@ const CartasNFT = () => {
               e.titulo.toLocaleLowerCase().includes(buscar.toLocaleLowerCase())
             ) {
               return e;
-            } 
+            }
           })
           .map((carta) => (
             <LinkBox key={carta.id}>
-              <LinkOverlay href={carta.href}>
+              <LinkOverlay>
                 <WrapItem >
                   <Center>
                     <Carta carta={carta} />
